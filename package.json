@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
+    "demo": "node demo-server.js",
     "lint": "eslint .",
     "test": "node test/api.test.js",
     "test:watch": "nodemon -e js --exec 'npm test'",
@@ -34,9 +35,7 @@
     "youtube",
     "content-scraper",
     "metadata-extraction",
-    "scraping",
-    "rule34",
-    "gelbooru"
+    "scraping"
   ],
   "author": {
     "name": "terastudio",
@@ -54,9 +53,7 @@
   "dependencies": {
     "@napi-rs/canvas": "^0.1.80",
     "axios": "^1.6.8",
-    "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
-    "crypto": "^1.0.1",
     "dotenv": "^17.2.2",
     "express": "^4.19.2",
     "express-mongo-sanitize": "^2.2.0",
@@ -64,15 +61,12 @@
     "helmet": "^7.2.0",
     "hpp": "^0.2.3",
     "multer": "^2.0.2",
-    "xss-clean": "^0.1.4",
     "pino": "^8.17.0",
     "pino-pretty": "^10.3.0",
     "redis": "^4.6.10",
     "node-cache": "^5.1.2",
     "jsonschema": "^1.4.1",
-    "ytdl-core": "^4.11.5",
-    "@tensorflow/tfjs-node": "^4.20.0",
-    "nsfwjs": "^2.4.2"
+    "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
