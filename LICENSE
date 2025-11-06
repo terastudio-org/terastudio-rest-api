@@ -1,0 +1,54 @@
+# terastudio Organization Custom License
+
+**terastudio Custom License v1.0**  
+*Copyright (c) 2025 terastudio Organization*
+
+## Permission to Use
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for non-commercial purposes.
+
+## Commercial Use Restrictions
+
+**The following commercial uses are PROHIBITED without explicit written permission from terastudio Organization:**
+
+1. **Direct Commercial Use**: Using this software directly for commercial purposes
+2. **Resale**: Reselling or redistributing this software
+3. **SaaS**: Creating Software-as-a-Service platforms using this code
+4. **White-label**: Repackaging this software as your own product
+5. **Subscription Services**: Creating paid subscription services using this software
+
+## Permitted Uses
+
+- **Personal Projects**: Use for personal learning and development
+- **Open Source Contributions**: Contribute back to the project
+- **Educational Purposes**: Use in academic and educational contexts
+- **Non-Profit Organizations**: Use by registered non-profit organizations
+- **Academic Research**: Use in research projects
+
+## Conditions
+
+1. **Attribution**: This license and copyright notice must be included in all copies or substantial portions of the Software
+2. **No Modification of License**: You may not modify the terms of this license
+3. **No Distribution of Modified Versions**: Modified versions must not be distributed without attribution to terastudio Organization
+
+## Disclaimer
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Contact
+
+For commercial licensing inquiries, please contact:  
+**Email**: licensing@terastudio.org  
+**GitHub**: https://github.com/terastudio-org  
+**Website**: https://terastudio.org
+
+## Additional Terms
+
+- **Rate Limiting**: Any use of this software must implement appropriate rate limiting to prevent abuse
+- **Content Moderation**: Users are responsible for implementing appropriate content moderation for any user-generated content
+- **Privacy**: Ensure compliance with applicable privacy laws and regulations
+- **Security**: Implement security best practices when deploying this software
+
+---
+
+*This license is specific to terastudio Organization and supersedes the MIT license listed in package.json for commercial use cases.*

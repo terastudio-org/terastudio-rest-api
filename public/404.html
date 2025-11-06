@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | TerraStudio API</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --text: #1f2937;
+            --background: #f9fafb;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--background);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+        
+        .error-code {
+            font-size: 6rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+        
+        .error-title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+        
+        .error-message {
+            color: #6b7280;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .api-info {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .api-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .api-link {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        .api-link:hover {
+            background: #4f46e5;
+        }
+        
+        .api-link.secondary {
+            background: #e5e7eb;
+            color: var(--text);
+        }
+        
+        .api-link.secondary:hover {
+            background: #d1d5db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">The requested resource could not be found on this server. Please check the URL and try again.</p>
+        
+        <div class="api-info">
+            <h2>TerraStudio REST API</h2>
+            <p>Check out our available endpoints:</p>
+            <div class="api-links">
+                <a href="/openapi.json" class="api-link">API Spec</a>
+                <a href="/api/users/register" class="api-link secondary">User Registration</a>
+                <a href="/" class="api-link">Documentation</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

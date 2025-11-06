@@ -1,0 +1,4 @@
+[REQ] 2025-11-06T11:47:29.766Z ::1 GET / count=1
+[REQ] 2025-11-06T11:47:34.294Z ::1 GET /openapi.json count=2
+[REQ] 2025-11-06T11:47:34.668Z ::1 GET /favicon.ico count=3
+[REQ] 2025-11-06T11:48:36.334Z ::1 GET /api/random/loli count=1
